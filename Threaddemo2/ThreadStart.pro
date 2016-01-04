@@ -12,6 +12,8 @@ TARGET = ThreadStart
 TEMPLATE = app
 
 CONFIG += c++11
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    threadtest.cpp
 
-HEADERS  +=
+HEADERS  += \
+    threadtest.h
